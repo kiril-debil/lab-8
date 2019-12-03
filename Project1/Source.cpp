@@ -8,15 +8,16 @@ using namespace std;
 int main()
 {
 
-	int y;
+	double x, y, z;
 
+	cout << "x=";
+	cin >> x;
 	cout << "y=";
 	cin >> y;
-
-	int z;
+	
 
 	
-	z = 34634 * y;
+	z = (x * 1000) / (y * 342);
 	cout << "z=" << z << "\n";
 	system("pause");
 	return 0;
